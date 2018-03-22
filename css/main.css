@@ -19,6 +19,7 @@
 #work{
     position: relative;
     top: 25em;
+    margin-block-end: 5em;
 }
 
 
@@ -37,45 +38,50 @@ ul {
         text-align:center;
         position:relative;
       }
-.caption {
+ .caption {
         position: absolute;
         top: 32%;
         width: 100%;
         text-align: center;
         display: inline block;
         color: rgb(228, 222, 222);
-    }
-span.border {
+    } 
+ span.border {
         background-color: #111;
         color: #fff;
         padding: 20px;
         font-size: 35px;
         letter-spacing: 10px;
         opacity: 0.75;
-    }
-    span.border1 {
+    } 
+     span.border1 {
         background-color: #111;
         color: #fff;
         padding: 20px;
         font-size: 35px;
         letter-spacing: 10px;
         opacity: 0.75;
-    }
-.worktitle{
+    } 
+ .worktitle{
     text-align: center;
     font-weight: bold;
     
-}
-.thumbnail{
+} 
+ .thumbnail{
     border: none;
-}
-#aboutme{
-    position: relative;
+} 
+ #aboutme{
+    position: absolute;
     padding: 15em;
     top:50em;
     text-align: center;
-}
-.contact{
+} 
+ #contact{
     position: relative;
-    top:200em
-}
+    top:80em
+} 
+.container{
+    height: 8em;
+    padding: 20em;
+    margin: 10em;
+} 
